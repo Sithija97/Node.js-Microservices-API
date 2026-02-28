@@ -1,7 +1,8 @@
 import mongoose from "mongoose";
 
 export async function connectDB(uri?: string): Promise<typeof mongoose> {
-  const mongoUri = uri || process.env.MONGO_URI || "mongodb://localhost:27017/myapp";
+  const mongoUri =
+    uri || process.env.MONGO_URI || "mongodb://mongo:27017/users";
 
   // Use recommended options (mongoose 6+ uses sensible defaults)
   try {
@@ -15,4 +16,3 @@ export async function connectDB(uri?: string): Promise<typeof mongoose> {
 }
 
 export { mongoose };
-
