@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 export async function connectDB(uri?: string): Promise<typeof mongoose> {
-  const mongoUri = uri || "mongodb://mongo:27017/users";
+  const mongoUri = uri || "mongodb://mongo:27017/tasks";
 
   // Use recommended options (mongoose 6+ uses sensible defaults)
   try {
