@@ -1,7 +1,7 @@
 {
   "name": "user-service",
   "version": "1.0.0",
-  "description": "",
+  "description": "User service for managing user data",
   "main": "index.js",
   "scripts": {
     "dev": "ts-node src/index.ts",

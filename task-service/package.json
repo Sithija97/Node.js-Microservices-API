@@ -1,7 +1,7 @@
 {
   "name": "task-service",
   "version": "1.0.0",
-  "description": "",
+  "description": "Task service for managing tasks",
   "main": "index.js",
   "scripts": {
     "dev": "ts-node src/index.ts",
